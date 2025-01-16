@@ -21,13 +21,9 @@ flutter:
 
   assets:
     - assets/
-    # - assets/background.png
-    - assets/fade.jpg
-  # Add specific asset files if needed
-  # - assets/images/
-  # - assets/icons/
+
   fonts:
     - family: Proxima Nova
       fonts:
-        - asset: assets/fonts/proxima-nova-bold.otf
+        - asset: assets/proxima-nova-bold.otf
           weight: 700
