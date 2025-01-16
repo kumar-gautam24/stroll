@@ -26,3 +26,8 @@ flutter:
   # Add specific asset files if needed
   # - assets/images/
   # - assets/icons/
+  fonts:
+    - family: Proxima Nova
+      fonts:
+        - asset: assets/fonts/proxima-nova-bold.otf
+          weight: 700
