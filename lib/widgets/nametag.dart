@@ -8,18 +8,18 @@ class NameTag extends StatelessWidget {
     return Container(
       width: 350,
       padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: Colors.black,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: [
-          BoxShadow(
-            // ignore: deprecated_member_use
-            color: Colors.black.withOpacity(0.5),
-            blurRadius: 10,
-            offset: const Offset(0, 5),
-          ),
-        ],
-      ),
+      // decoration: BoxDecoration(
+      //   color: Colors.black,
+      //   borderRadius: BorderRadius.circular(16),
+      //   boxShadow: [
+      //     BoxShadow(
+      //       // ignore: deprecated_member_use
+      //       color: Colors.black.withOpacity(0.5),
+      //       blurRadius: 10,
+      //       offset: const Offset(0, 5),
+      //     ),
+      //   ],
+      // ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,

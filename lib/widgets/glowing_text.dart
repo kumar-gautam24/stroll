@@ -6,7 +6,7 @@ class GlowingText extends StatelessWidget {
   final FontWeight fontWeight;
   final Color color;
 
-  const GlowingText({
+   const GlowingText({
     super.key,
     required this.text,
     this.fontSize = 16,
